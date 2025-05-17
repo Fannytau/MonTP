@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  background: #333;
+  padding: 0.5rem;
+}
+nav li {
+  margin-right: 1rem;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+h1 {
+  margin-top: 1.5rem;
+}
+form label {
+  font-weight: bold;
+}
+button {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+}
+/* Dans backend/static/css/style.css */
+
+#filters {
+  margin-bottom: 1.5rem;
+}
+#filters label {
+  margin-right: 1rem;
+}
+.film-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}

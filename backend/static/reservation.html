@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Réservation - Cinéphoria</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Menu</a></li>
+      </ul>
+    </nav>
+
+    <h1>Réserver une séance</h1>
+    <form id="reservation-form">
+      <label for="cinema">Cinéma :</label>
+      <select id="cinema">
+        <option value="">--Choisir un cinéma--</option>
+      </select>
+      <br><br>
+
+      <label for="film">Film :</label>
+      <select id="film">
+        <option value="">--Choisir un film--</option>
+      </select>
+      <br><br>
+
+      <div id="seances">
+        <!-- Les séances (radio + prix) apparaîtront ici -->
+      </div>
+      <br>
+
+      <button type="submit">Calculer le prix</button>
+    </form>
+
+    <script src="js/reservation.js"></script>
+</body>
+</html>

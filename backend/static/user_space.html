@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mon Espace – Cinéphoria</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav><ul><li><a href="index.html">Menu</a></li></ul></nav>
+  <h1>Mon Espace</h1>
+
+  <section id="orders-section">
+    <h2>Mes commandes</h2>
+    <div id="orders-list"></div>
+  </section>
+
+  <section id="ratings-section">
+    <h2>Ajouter une note</h2>
+    <form id="rating-form">
+      <label>Film ID: <input type="number" id="filmId" required></label><br><br>
+      <label>Score (1–5): <input type="number" id="score" min="1" max="5" required></label><br><br>
+      <label>Commentaire: <textarea id="comment"></textarea></label><br><br>
+      <button type="submit">Envoyer</button>
+    </form>
+    <div id="ratings-list"></div>
+  </section>
+
+  <script src="js/user.js"></script>
+</body>
+</html>

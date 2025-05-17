@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Films - Cinéphoria</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Menu</a></li>
+    </ul>
+  </nav>
+
+  <h1>Liste des films</h1>
+
+  <div id="filters">
+    <label>Cinéma:
+      <select id="filter-cinema">
+        <option value="">Tous</option>
+      </select>
+    </label>
+
+    <label>Genre:
+      <select id="filter-genre">
+        <option value="">Tous</option>
+      </select>
+    </label>
+
+    <label>Jour:
+      <input type="date" id="filter-date">
+    </label>
+
+    <button id="apply-filters">Appliquer</button>
+  </div>
+
+  <div id="films-container">
+    <!-- Les films apparaîtront ici -->
+  </div>
+
+  <script src="js/films.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin – Cinéphoria</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav><ul><li><a href="index.html">Menu</a></li></ul></nav>
+  <h1>Tableau de bord Administrateur</h1>
+
+  <section id="films-crud">
+    <h2>Gestion des films</h2>
+    <form id="create-film-form">
+      <input placeholder="Titre" id="film-title"><input placeholder="Genre" id="film-genre">
+      <input type="date" id="film-date">
+      <button type="submit">Créer</button>
+    </form>
+    <div id="films-list"></div>
+  </section>
+
+  <!-- Vous pouvez ajouter ici sections séances, salles, employés... -->
+
+  <script src="js/admin.js"></script>
+</body>
+</html>
